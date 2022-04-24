@@ -1,0 +1,29 @@
+{
+  "id": "com.awox",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "name": {
+    "en": "AwoX Lights"
+  },
+  "description": {
+    "en": "my light | my style"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Geurt Dijker",
+    "email": "geurt@dijker.nu"
+  }
+}

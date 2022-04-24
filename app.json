@@ -1,0 +1,93 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.awox",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "name": {
+    "en": "AwoX Lights"
+  },
+  "description": {
+    "en": "my light | my style"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Geurt Dijker",
+    "email": "geurt@dijker.nu"
+  },
+  "drivers": [
+    {
+      "name": {
+        "en": "TLSR82xx"
+      },
+      "class": "light",
+      "capabilities": [
+        "light_saturation",
+        "light_temperature",
+        "dim",
+        "light_hue",
+        "onoff"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": "AwoX",
+        "productId": [
+          "TLSR82xx"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/rgb_bulb/assets/learnmode.svg",
+          "instruction": {
+            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 6 times as demonstrated by the animation, afterwards leave it turned on. It will flash to indicate it has been reset.",
+            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren door de lamp 6 keer uit en aan te zetten zoals de animatie laat zien, laat de lamp vervolgens aan staan. De lamp zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, wie in der Animation demonstriert, die Birne durch 6-maliges Umschalten zurückzusetzen; schalte sie anschließend schnell ein. Sie blinkt wenn sie zurückgesetzt wurde."
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/tlsr82xx/assets/images/small.png",
+        "large": "/drivers/tlsr82xx/assets/images/large.png",
+        "xlarge": "/drivers/tlsr82xx/assets/images/xlarge.png"
+      },
+      "id": "tlsr82xx"
+    }
+  ]
+}
