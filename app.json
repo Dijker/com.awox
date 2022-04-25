@@ -29,17 +29,52 @@
   },
   "drivers": [
     {
-      "name": {
-        "en": "TLSR82xx"
-      },
-      "class": "light",
-      "capabilities": [
-        "light_saturation",
-        "light_temperature",
-        "dim",
-        "light_hue",
-        "onoff"
+      "platforms": [
+        "local",
+        "cloud"
       ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": "AwoX",
+        "productId": [
+          "TLSR82xx"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              8,
+              768,
+              4096,
+              64599,
+              10
+            ]
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/tlsr82xx/assets/images/small.png",
+        "large": "/drivers/tlsr82xx/assets/images/large.png",
+        "xlarge": "/drivers/tlsr82xx/assets/images/xlarge.png"
+      },
+      "icon": "/drivers/tlsr82xx/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature",
+        "light_hue",
+        "light_saturation"
+      ],
+      "class": "light",
+      "name": {
+        "en": "TLSR82xx_"
+      },
       "capabilitiesOptions": {
         "dim": {
           "opts": {
@@ -50,6 +85,59 @@
           "setOnDim": false
         }
       },
+      "id": "tlsr82xx"
+    },
+    {
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": "AwoX",
+        "productId": [
+          "TLSR82xx"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8
+            ]
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/tlsr82xx_dimable/assets/images/small.png",
+        "large": "/drivers/tlsr82xx_dimable/assets/images/large.png",
+        "xlarge": "/drivers/tlsr82xx_dimable/assets/images/xlarge.png"
+      },
+      "icon": "/drivers/tlsr82xx_dimable/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "class": "light",
+      "name": {
+        "en": "AwoX Dimable bulb"
+      },
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "id": "tlsr82xx_dimable"
+    },
+    {
       "platforms": [
         "local",
         "cloud"
@@ -74,20 +162,94 @@
           }
         },
         "learnmode": {
-          "image": "/drivers/rgb_bulb/assets/learnmode.svg",
+          "image": "/drivers/tlsr82xx_rgb/assets/learnmode.svg",
           "instruction": {
-            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 6 times as demonstrated by the animation, afterwards leave it turned on. It will flash to indicate it has been reset.",
-            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren door de lamp 6 keer uit en aan te zetten zoals de animatie laat zien, laat de lamp vervolgens aan staan. De lamp zal knipperen om aan te geven dat hij is gereset.",
-            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, wie in der Animation demonstriert, die Birne durch 6-maliges Umschalten zurückzusetzen; schalte sie anschließend schnell ein. Sie blinkt wenn sie zurückgesetzt wurde."
+            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb. \nPlease refer the online manual.\n https://www.youtube.com/watch?v=xeEryXGCfKA ",
+            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren van de lamp. \nKijk a.u.b. in de online handleiding. \n https://www.youtube.com/watch?v=xeEryXGCfKA",
+            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, die Birne durch zurückzusetzen.\nBitte beachten Sie das Online-Handbuch.\n https://www.youtube.com/watch?v=xeEryXGCfKA"
           }
         }
       },
       "images": {
-        "small": "/drivers/tlsr82xx/assets/images/small.png",
-        "large": "/drivers/tlsr82xx/assets/images/large.png",
-        "xlarge": "/drivers/tlsr82xx/assets/images/xlarge.png"
+        "small": "/drivers/tlsr82xx_rgb/assets/images/small.png",
+        "large": "/drivers/tlsr82xx_rgb/assets/images/large.png",
+        "xlarge": "/drivers/tlsr82xx_rgb/assets/images/xlarge.png"
       },
-      "id": "tlsr82xx"
+      "icon": "/drivers/tlsr82xx_rgb/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature",
+        "light_hue",
+        "light_saturation"
+      ],
+      "class": "light",
+      "name": {
+        "en": "AwoX RGB bulb"
+      },
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "id": "tlsr82xx_rgb"
+    },
+    {
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": "AwoX",
+        "productId": [
+          "TLSR82xx"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              6,
+              8,
+              768
+            ]
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/tlsr82xx_tunable/assets/images/small.png",
+        "large": "/drivers/tlsr82xx_tunable/assets/images/large.png",
+        "xlarge": "/drivers/tlsr82xx_tunable/assets/images/xlarge.png"
+      },
+      "icon": "/drivers/tlsr82xx_tunable/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "class": "light",
+      "name": {
+        "en": "AwoX Tunable bulb"
+      },
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "id": "tlsr82xx_tunable"
     }
   ]
 }

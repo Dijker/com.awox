@@ -1,13 +1,10 @@
 {
   "name": {
-    "en": "TLSR82xx_"
+    "en": "AwoX Dimable bulb"
   },
   "capabilities": [
     "onoff",
-    "dim",
-    "light_temperature",
-    "light_hue",
-    "light_saturation"
+    "dim"
   ],
   "capabilitiesOptions": {
     "dim": {
@@ -28,15 +25,9 @@
       "1": {
         "clusters": [
           0,
-          3,
           4,
-          5,
           6,
-          8,
-          768,
-          4096,
-          64599,
-          10
+          8
         ]
       }
     }
