@@ -11,6 +11,8 @@
   "name": {
     "en": "AwoX Lights"
   },
+  "brandColor": "#64C6A8",
+  "homeyCommunityTopicId": 63043,
   "description": {
     "en": "my light | my style"
   },
@@ -55,6 +57,20 @@
               64599,
               10
             ]
+          },
+          "3": {
+            "clusters": [
+              0,
+              1
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/tlsr82xx/assets/learnmode.svg",
+          "instruction": {
+            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb. \nPlease refer the online manual.\n https://www.youtube.com/watch?v=xeEryXGCfKA ",
+            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren van de lamp. \nKijk a.u.b. in de online handleiding. \n https://www.youtube.com/watch?v=xeEryXGCfKA",
+            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, die Birne durch zurückzusetzen.\nBitte beachten Sie das Online-Handbuch.\n https://www.youtube.com/watch?v=xeEryXGCfKA"
           }
         }
       },
@@ -108,6 +124,14 @@
               6,
               8
             ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/tlsr82xx_dimable/assets/learnmode.svg",
+          "instruction": {
+            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb. \nPlease refer the online manual.\n https://www.youtube.com/watch?v=xeEryXGCfKA ",
+            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren van de lamp. \nKijk a.u.b. in de online handleiding. \n https://www.youtube.com/watch?v=xeEryXGCfKA",
+            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, die Birne durch zurückzusetzen.\nBitte beachten Sie das Online-Handbuch.\n https://www.youtube.com/watch?v=xeEryXGCfKA"
           }
         }
       },
@@ -221,6 +245,14 @@
               8,
               768
             ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/tlsr82xx_tunable/assets/learnmode.svg",
+          "instruction": {
+            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb. \nPlease refer the online manual.\n https://www.youtube.com/watch?v=xeEryXGCfKA ",
+            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren van de lamp. \nKijk a.u.b. in de online handleiding. \n https://www.youtube.com/watch?v=xeEryXGCfKA",
+            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, die Birne durch zurückzusetzen.\nBitte beachten Sie das Online-Handbuch.\n https://www.youtube.com/watch?v=xeEryXGCfKA"
           }
         }
       },
