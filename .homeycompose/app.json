@@ -1,6 +1,6 @@
 {
   "id": "com.awox",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -8,12 +8,12 @@
     "cloud"
   ],
   "name": {
-    "en": "AwoX Lights"
+    "en": "AwoX"
   },
   "brandColor": "#64C6A8",
   "homeyCommunityTopicId": 63043,
   "description": {
-    "en": "my light | my style"
+    "en": "AwoX Connected Lighting"
   },
   "category": [
     "lights"
@@ -27,5 +27,39 @@
   "author": {
     "name": "Geurt Dijker",
     "email": "geurt@dijker.nu"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Geurt Dijker",
+        "email": "geurt@dijker.nu"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "Dijker"
+      },
+      "patreon": {
+        "username": "Dijker"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/Dijker-Homey-Apps/com.AwoX/issues"
+  },
+  "support": "https://community.homey.app/t/63043",
+  "tags": {
+    "en": [
+      "Eglo",
+      "Connect.z",
+      "TLSR82xx"
+    ],
+    "nl": [
+      "Eglo",
+      "Connect.z",
+      "TLSR82xx"
+    ]
   }
 }
