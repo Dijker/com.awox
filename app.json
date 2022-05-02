@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.awox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -13,7 +13,7 @@
   "brandColor": "#64C6A8",
   "homeyCommunityTopicId": 63043,
   "description": {
-    "en": "AwoX Connected Lighting"
+    "en": "Connected Lighting"
   },
   "category": [
     "lights"
@@ -106,7 +106,7 @@
       ],
       "class": "light",
       "name": {
-        "en": "AwoX Dimable bulb"
+        "en": "Dimable bulb"
       },
       "capabilitiesOptions": {
         "dim": {
@@ -167,7 +167,7 @@
       ],
       "class": "light",
       "name": {
-        "en": "AwoX RGB bulb"
+        "en": "RGB bulb"
       },
       "capabilitiesOptions": {
         "dim": {
@@ -228,7 +228,7 @@
       ],
       "class": "light",
       "name": {
-        "en": "AwoX RGB GU10 Spot"
+        "en": "RGB GU10 Spot"
       },
       "capabilitiesOptions": {
         "dim": {
@@ -287,7 +287,7 @@
       ],
       "class": "light",
       "name": {
-        "en": "AwoX Tunable bulb"
+        "en": "Tunable bulb"
       },
       "capabilitiesOptions": {
         "dim": {

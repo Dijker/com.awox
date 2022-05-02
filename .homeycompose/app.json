@@ -1,6 +1,6 @@
 {
   "id": "com.awox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -12,7 +12,7 @@
   "brandColor": "#64C6A8",
   "homeyCommunityTopicId": 63043,
   "description": {
-    "en": "AwoX Connected Lighting"
+    "en": "Connected Lighting"
   },
   "category": [
     "lights"
