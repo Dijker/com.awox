@@ -1,5 +1,8 @@
 {
   "0.0.1": {
     "en": "First AwoX Homey Appstore submit"
+  },
+  "0.0.3": {
+    "en": "Fixed naming for Homey AppStore"
   }
 }
