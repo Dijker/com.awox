@@ -9,7 +9,7 @@ class Tlsr82xxDimable extends ZigBeeLightDevice {
       'TLSR82xx': {
         approximation: {
           usageOff: 0.5,
-          usageOn: 8.6,
+          usageOn: 5.5,
         },
       },
     };
