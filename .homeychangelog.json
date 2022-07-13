@@ -4,5 +4,8 @@
   },
   "0.0.3": {
     "en": "Fixed naming for Homey AppStore"
+  },
+  "0.0.4": {
+    "en": "Updated homey-zigbeedriver v1.6.12  & v0.0.4"
   }
 }
