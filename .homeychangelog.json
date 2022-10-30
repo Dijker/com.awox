@@ -7,5 +7,8 @@
   },
   "0.0.4": {
     "en": "Updated homey-zigbeedriver v1.6.12  & v0.0.4"
+  },
+  "0.0.7": {
+    "en": "Updated Zigbee ProductIDs for AwoX Firmware updates v2.3.12"
   }
 }

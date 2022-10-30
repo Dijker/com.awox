@@ -1,0 +1,30 @@
+{
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": "AwoX",
+    "productId": [
+      "AwoX_Light"
+    ],
+    "learnmode": {
+      "image": "/drivers/rgb_bulb/assets/learnmode.svg",
+      "instruction": {
+        "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb. See online in the manual.",
+        "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren van de lamp. Kijk in de online handleiding.",
+        "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, die Birne durch zurückzusetzen. ..."
+      }
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "icon": "{{driverAssetsPath}}/icon.svg",
+  "capabilities": [],
+  "class": "light"
+}

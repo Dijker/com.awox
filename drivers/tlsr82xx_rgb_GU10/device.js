@@ -12,6 +12,12 @@ class Tlsr82xxRGB extends ZigBeeLightDevice {
           usageOn: 8.6,
         },
       },
+      'EGLO_ZM_RGB_TW': {
+        approximation: {
+          usageOff: 0.5,
+          usageOn: 8.6,
+        },
+      },
     };
   }
 

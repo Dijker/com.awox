@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Dimable bulb"
+    "en": "Dimmable bulb"
   },
   "capabilities": [
     "onoff",
@@ -19,7 +19,8 @@
   "zigbee": {
     "manufacturerName": "AwoX",
     "productId": [
-      "TLSR82xx"
+      "TLSR82xx",
+      "ESMLFzm_w6_Dimm"
     ],
     "endpoints": {
       "1": {
