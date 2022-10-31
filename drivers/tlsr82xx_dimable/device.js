@@ -2,7 +2,7 @@
 
 const { ZigBeeLightDevice } = require('homey-zigbeedriver');
 
-class Tlsr82xxDimable extends ZigBeeLightDevice {
+class Tlsr82xxDimmable extends ZigBeeLightDevice {
 
   get energyMap() {
     return {
@@ -12,9 +12,15 @@ class Tlsr82xxDimable extends ZigBeeLightDevice {
           usageOn: 5.5,
         },
       },
+      'ESMLFzm_w6_Dimm': {
+              approximation: {
+                usageOff: 0.5,
+                usageOn: 5.5,
+              },
+            },
     };
   }
 
 }
 
-module.exports = Tlsr82xxDimable;
+module.exports = Tlsr82xxDimmable;

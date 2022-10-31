@@ -10,6 +10,7 @@ To request additional devices, please use Athom Homey Community Forum.
 At this moment only Zigbee is supported for the devices, no Bluetooth.
 
 Note:
-AwoX uses one common ProductID for multiple types of devices (Dim, Tunable, RGB)
-Please  use the correct device with Pairing, or you will have the incorrect capabilities.
-Advantage:  Probably a lot devices are already supported.
+Until FirmWare 2.3.9, AwoX used one common Zigbee ProductID for multiple types of devices (Dim, Tunable, RGB, E27, GU10, LEDpannels, etc.)
+As of Firmware 2.3.12, AwoX is giving different products their own Zigbee ProductID.
+Advice: First update the Firmware via the Mobile AwoX App via Bluetooth, otherwise this will cause problems later.
+See community forum for the added productIDs

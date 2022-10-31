@@ -12,6 +12,18 @@ class Tlsr82xxTunable extends ZigBeeLightDevice {
           usageOn: 8.6,
         },
       },
+      'ESMLFzm_w6_TW': {
+        approximation: {
+          usageOff: 0.5,
+          usageOn: 8.6,
+        },
+      },
+      'EGLO_ZM_TW': {
+        approximation: {
+          usageOff: 0.5,
+          usageOn: 8.6,
+        },
+      },
     };
   }
 

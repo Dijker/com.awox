@@ -20,7 +20,9 @@
   "zigbee": {
     "manufacturerName": "AwoX",
     "productId": [
-      "TLSR82xx"
+      "TLSR82xx",
+      "ESMLFzm_w6_TW",
+      "EGLO_ZM_TW"
     ],
     "endpoints": {
       "1": {
