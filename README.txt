@@ -1,11 +1,12 @@
 AwoX is a specialist in connected lighting.
 The company has a very wide range of connected lighting products.
-These are alos sold under the brand EGLO Connect by AwoX
+These are also sold under the brand EGLO Connect by AwoX
 
-Adjust the RGB color, brightness, set your preferred white temperature and unlock the full potential of your devices through AwoX app on Homey
+THIS APP IS DEPRICATED!
+Please Migrate to Official Supported Brand the App https://homey.app/a/com.eglo/
+
 
 The app is a Community initiative.
-To request additional devices, please use Athom Homey Community Forum.
 
 At this moment only Zigbee is supported for the devices, no Bluetooth.
 
