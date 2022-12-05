@@ -10,5 +10,8 @@
   },
   "0.0.7": {
     "en": "Updated Zigbee ProductIDs for AwoX Firmware updates v2.3.12"
+  },
+  "0.0.8": {
+    "en": "DeprecateIt"
   }
 }
