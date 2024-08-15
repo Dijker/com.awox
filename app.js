@@ -11,7 +11,7 @@ class MyApp extends Homey.App {
     this.log('MyApp has been initialized');
     this.homey.notifications.createNotification({
       excerpt : 'AwoX App Stops! Migrate to Eglo App! \nPlease Read: https://community.homey.app/t/63043/23'
-    });
+    }).catch( this.error );
   }
 }
 
