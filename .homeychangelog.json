@@ -13,5 +13,8 @@
   },
   "0.0.8": {
     "en": "DeprecateIt"
+  },
+  "0.1.0": {
+    "en": "Notify users of New Eglo App to use"
   }
 }
